@@ -21,23 +21,6 @@
                     }
                 },
                 {
-                    "source": "/home/user/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/aa7a62a7a3296564d5669249c3a5697d/res/values-ms/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "205",
-                        "endColumns": "102",
-                        "endOffsets": "307"
-                    },
-                    "to": {
-                        "startLines": "47",
-                        "startColumns": "4",
-                        "startOffsets": "5646",
-                        "endColumns": "106",
-                        "endOffsets": "5748"
-                    }
-                },
-                {
                     "source": "/home/user/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ec4e62dc6608611beec5eaa92d217e19/res/values-ms/values-ms.xml",
                     "from": {
                         "startLines": "2",
@@ -52,6 +35,23 @@
                         "startOffsets": "5833",
                         "endColumns": "100",
                         "endOffsets": "5929"
+                    }
+                },
+                {
+                    "source": "/home/user/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.0.0.aar/850952aa537e0387bec041b1964716bb/res/values-ms/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "102",
+                        "endOffsets": "307"
+                    },
+                    "to": {
+                        "startLines": "47",
+                        "startColumns": "4",
+                        "startOffsets": "5646",
+                        "endColumns": "106",
+                        "endOffsets": "5748"
                     }
                 },
                 {
