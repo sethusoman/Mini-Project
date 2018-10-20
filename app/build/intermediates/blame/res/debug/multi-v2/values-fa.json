@@ -38,7 +38,24 @@
                     }
                 },
                 {
-                    "source": "/home/user/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/a65a23620d3c33179d539b716a8a582a/res/values-fa/values.xml",
+                    "source": "/home/user/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/c2be23a619fd4e80055c44744480809d/res/values-fa/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "213",
+                        "endOffsets": "460"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "3966",
+                        "endColumns": "213",
+                        "endOffsets": "4175"
+                    }
+                },
+                {
+                    "source": "/home/user/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/04d5c310b9fa9d8c104e65576570a1cd/res/values-fa/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -69,23 +86,6 @@
                         "startOffsets": "105,215,318,429,513,616,731,810,888,981,1076,1172,1266,1369,1464,1561,1660,1753,1843,1924,2036,2139,2237,2347,2451,2560,2721,5661",
                         "endColumns": "109,102,110,83,102,114,78,77,92,94,95,93,102,94,96,98,92,89,80,111,102,97,109,103,108,160,100,80",
                         "endOffsets": "210,313,424,508,611,726,805,883,976,1071,1167,1261,1364,1459,1556,1655,1748,1838,1919,2031,2134,2232,2342,2446,2555,2716,2817,5737"
-                    }
-                },
-                {
-                    "source": "/home/user/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/09541c4eb6aa7c5139c7781f38da18d6/res/values-fa/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "213",
-                        "endOffsets": "460"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "3966",
-                        "endColumns": "213",
-                        "endOffsets": "4175"
                     }
                 }
             ]

@@ -33,6 +33,19 @@ public class MainActivity extends AppCompatActivity {
         btnSignUp = findViewById(R.id.btnSignUp);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         signIn = findViewById(R.id.TVSignIn);
+//If a user is already logedin
+        if(FirebaseAuth.getInstance().getCurrentUser() != null) {
+            Toast.makeText(this,
+                    "Welcome " + FirebaseAuth.getInstance()
+                            .getCurrentUser()
+                            .getDisplayName(),
+                    Toast.LENGTH_LONG)
+                    .show();
+            Intent I = new Intent(MainActivity.this, HomeActivity.class);
+            startActivity(I);
+
+        }
+
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -57,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                                         "SignUp unsuccessful: " + task.getException().getMessage(),
                                         Toast.LENGTH_SHORT).show();
                             } else {
-                                startActivity(new Intent(MainActivity.this, UserActivity.class));
+                                startActivity(new Intent(MainActivity.this, HomeActivity.class));
                                 progressBar.setVisibility(View.GONE);
                             }
                         }
