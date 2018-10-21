@@ -625,6 +625,7 @@ color background_material_light
 color bg_login
 color bg_main
 color bg_register
+color black
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1052,6 +1053,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable city
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1521,6 +1523,7 @@ string common_signin_button_text
 string common_signin_button_text_long
 string default_web_client_id
 string email
+string empty_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string fcm_fallback_notification_channel_label
