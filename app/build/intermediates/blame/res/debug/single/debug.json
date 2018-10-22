@@ -1164,6 +1164,10 @@
         "source": "/home/user/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/4caf376afa88d550b1bda038e582780c/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
     },
     {
+        "merged": "/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/res/merged/debug/drawable-v24_google_travel_logo.png.flat",
+        "source": "/home/user/AndroidStudioProjects/Bon_voyage/app/src/main/res/drawable-v24/google_travel_logo.png"
+    },
+    {
         "merged": "/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "/home/user/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/4caf376afa88d550b1bda038e582780c/res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
@@ -1730,6 +1734,10 @@
     {
         "merged": "/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/res/merged/debug/drawable_abc_ic_go_search_api_material.xml.flat",
         "source": "/home/user/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/4caf376afa88d550b1bda038e582780c/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/res/merged/debug/layout_place_photos_layout.xml.flat",
+        "source": "/home/user/AndroidStudioProjects/Bon_voyage/app/src/main/res/layout/place_photos_layout.xml"
     },
     {
         "merged": "/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_background_transition_holo_light.xml.flat",

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="27"
-    build-mode="COLD"
-    density="420dpi"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="24"
+    build-mode="FULL"
+    density="xhdpi"
     format="10"
     plugin-version="3.2.1"
-    timestamp="1539833141567"
+    timestamp="1540178538131"
     token="-7778893863183937042"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="16" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
@@ -23,34 +23,58 @@
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
+    <artifact
+        location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+
     <build
         build-mode="FULL"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1539832489926"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1540178538131"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-            type="SPLIT" />
+            location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
-            location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
             location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
             location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
@@ -62,15 +86,20 @@
             location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
+            location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/user/AndroidStudioProjects/Bon_voyage/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
     </build>
-    <build
-        build-mode="COLD"
-        timestamp="1539833141567"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
