@@ -56,7 +56,8 @@ public class HomeActivity extends AppCompatActivity {
                 switch(id)
                 {
                     case R.id.nav_mytrips:
-                        Toast.makeText(HomeActivity.this, "My Trips",Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(HomeActivity.this, "My Trips",Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(HomeActivity.this, ActivitySelectLocation.class));
                         break;
                     case R.id.nav_settings:
                         Toast.makeText(HomeActivity.this, "Settings",Toast.LENGTH_SHORT).show();

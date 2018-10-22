@@ -1,4 +1,4 @@
-package com.project.wanderlust.Activities;
+package com.example.user.bon_voyage;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,7 +8,6 @@ import android.widget.Toast;
 import com.google.android.gms.location.places.Place;
 import com.google.android.gms.location.places.ui.PlacePicker;
 import com.google.android.gms.maps.model.LatLng;
-import com.project.wanderlust.R;
 
 public class ActivitySelectLocation extends AppCompatActivity {
 
@@ -52,7 +51,7 @@ public class ActivitySelectLocation extends AppCompatActivity {
 
                 if (callActivity.equals("journey"))
                 {
-                    Intent i = new Intent(this, ActivityCreateJourney.class);
+                    Intent i = new Intent(this, HomeActivity.class);
                     i.putExtra("lon" ,lon);
                     i.putExtra("lat" ,lat);
                     i.putExtra("address" ,address);
