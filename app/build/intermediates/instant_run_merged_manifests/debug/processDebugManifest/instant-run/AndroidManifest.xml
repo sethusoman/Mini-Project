@@ -53,6 +53,7 @@
         <activity android:name="com.example.user.bon_voyage.LoginActivity" />
         <activity android:name="com.example.user.bon_voyage.ResetPasswordActivity" />
         <activity android:name="com.example.user.bon_voyage.HomeActivity" />
+        <activity android:name="com.example.user.bon_voyage.ActivitySelectLocation" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
